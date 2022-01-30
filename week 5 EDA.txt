@@ -1,0 +1,40 @@
+Scaling
+
+import sklearn
+from sklearn.preprocessing import
+MinMaxscaler - 0 to 1
+StandardScaler - -3 to 3 (zScaler)
+MaxScaler - -1 to 1
+
+__________
+
+to find duplicate values
+
+len(df[df.duplicated()])
+
+will give number of duplicate values.
+
+Pre processing steps:
+1. Check and drop duplicates
+2.Remove unwated characters and change datatype
+3.Handling Categorical Features
+4.Dealing with missing values
+5. Deal with outlier
+
+
+
+_____________
+null percentage
+
+df.isnull().sum()/len(df)*100
+
+______________
+
+Identifying outlies
+
+1. describe()
+2. boxplot - univariate
+2. scatterplot - bivariate
+3.Z-score
+4. Inter Quantile Ranking(IQR)
+
